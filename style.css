@@ -1,6 +1,59 @@
+
+body{
+  font-family: spartan;
+  font-size: 15px;
+  background: url("../images/bg-pattern-top-desktop.svg"),url("../images/bg-pattern-bottom-desktop.svg");
+  position: ;
+  margin: 0%;
+}
+
+.container-top{
+  display:flex;
+  padding-top: 50px;
+  padding-left: 110px;
+}
+
+.introduction{
+  width: 38%;
+  
+}
+.introduction h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.rating{
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+.rates-1{
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.rates-2{
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.rates-3{
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.container-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-top: 40px;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
