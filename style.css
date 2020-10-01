@@ -25,19 +25,29 @@ body{
 .rating{
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   padding-top: 70px;
 }
 .rates-1{
+  display: flex;
+  justify-content: space-evenly;
   border-radius: 10px;
+  align-items: center;
   background-color: hsl(300, 24%, 96%);
 }
 
 .rates-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   border-radius: 10px;
   background-color: hsl(300, 24%, 96%);
 }
 
 .rates-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   border-radius: 10px;
   background-color: hsl(300, 24%, 96%);
 }
