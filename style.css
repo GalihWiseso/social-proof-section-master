@@ -1,6 +1,6 @@
 
 body{
-  font-family: spartan;
+  font-family: "Spartan";
   font-size: 15px;
   background: url("../images/bg-pattern-top-desktop.svg"),url("../images/bg-pattern-bottom-desktop.svg");
   position: ;
@@ -20,36 +20,49 @@ body{
 .introduction h1{
   font-size: 50px;
   font-weight: 700;
+  color: hsl(300, 43%, 22%);
 }
 
 .rating{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 70px;
+  padding-top: 20px;
+}
+
+.star{
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .rates-1{
+  font-weight:700;
+  color: hsl(300, 43%, 22%);
   display: flex;
-  justify-content: space-evenly;
   border-radius: 10px;
   align-items: center;
   background-color: hsl(300, 24%, 96%);
 }
 
 .rates-2{
+  font-weight:700;
+  color: hsl(300, 43%, 22%);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   border-radius: 10px;
   background-color: hsl(300, 24%, 96%);
+  margin-left: 50px;
+  width: 100%;
 }
 
 .rates-3{
+  font-weight:700;
+  color: hsl(300, 43%, 22%);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   border-radius: 10px;
   background-color: hsl(300, 24%, 96%);
+  margin-left:100px;
+  width: 100%;
 }
 
 .container-bottom{
@@ -58,6 +71,18 @@ body{
   padding-top: 40px;
   padding-left: 110px;
   padding-right: 110px;
+}
+
+.info-1{
+  display:flex;
+}
+
+.info-2{
+  display:flex;
+}
+
+.info-3{
+  display:flex;
 }
 
 .attribution {
