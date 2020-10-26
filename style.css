@@ -73,22 +73,91 @@ body{
   padding-right: 110px;
 }
 
+.review-1{
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  padding:40px;
+}
+
+.review-2{
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  margin-left:30px;
+  margin-right:30px;
+  position: relative;
+  top:20px;
+  padding:30px;
+}
+
+.review-3{
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  position: relative;
+  top:40px;
+  padding:30px;
+}
 .info-1{
   display:flex;
 }
-
+.info-1 img {
+  border-radius: 50px;
+  height:50px;
+  width:50px;
+}
 .info-2{
   display:flex;
+}
+
+.info-2 img {
+  border-radius: 50px;
+  height:50px;
+  width:50px;
 }
 
 .info-3{
   display:flex;
 }
 
+.info-3 img {
+  border-radius: 50px;
+  height:50px;
+  width:50px;
+}
+
+.name-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.real-name{
+  color: hsl(0, 0%, 100%);
+  margin-left: 20px;
+  
+}
+.status{
+  color: hsl(333, 80%, 67%);
+  margin-left: 20px;
+  padding-top: 0%;
+}
+
+.testimonial-1{
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-2{
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-3{
+  color: hsl(0, 0%, 100%);
+}
+
 .attribution {
     font-size: 11px;
-    text-align: center;
+    text-align: center; 
     padding-top: 40px;
   }
+
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
